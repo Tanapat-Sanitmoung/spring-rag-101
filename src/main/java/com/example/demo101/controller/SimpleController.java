@@ -36,6 +36,8 @@ public class SimpleController {
 
         var reader = new TextReader(new ClassPathResource("/sample.txt"));
 
+        reader.getCustomMetadata().put("filename", "sample.txt");
+
         var documents = new TokenTextSplitter().split(reader.get());
 
         store.add(documents);
