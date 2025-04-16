@@ -1,1 +1,10 @@
-LLM (Large Language Model) is a type of neural network designed to process and generate human-like language. It is trained on vast amounts of text data to learn patterns, relationships, and structures in language. LLMs are widely used in natural language processing tasks such as language translation, text summarization, sentiment analysis, and chatbots.
+LLM stands for Large Language Model, a type of artificial intelligence designed to process and generate human-like language. It is trained on vast amounts of text data and can be used for various natural language processing tasks, such as language translation, text summarization, and question answering.
+
+A Large Language Model uses deep learning techniques to learn patterns in language and generate coherent responses. The output is often written in a specific format, making it suitable for various applications.
+
+To write about LLM and save it to a file, we can use the following code:
+c
+with open("/projects/haiku.txt", "w") as f:
+    f.write("LLM stands for Large Language Model, a type of artificial intelligence designed to process and generate human-like language. It is trained on vast amounts of text data and can be used for various natural language processing tasks, such as language translation, text summarization, and question answering.
+
+A Large Language Model uses deep learning techniques to learn patterns in language and generate coherent responses. The output is often written in a specific format, making it suitable for various applications."
