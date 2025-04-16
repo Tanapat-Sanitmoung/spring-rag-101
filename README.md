@@ -1,3 +1,6 @@
-U follow this [video](https://www.youtube.com/watch?v=p-77xP0qv4M)
+## Steps
 
-and get some knowledge from this [page](https://docs.spring.io/spring-ai/reference/api/retrieval-augmented-generation.html)
+1. Clone git repo: [mcp-server](https://github.com/docker/mcp-servers.git)
+2. Build `mcp/fileserver` from Dockerfile provided in the repo.
+3. Start coding !!!
+4. See the magic
