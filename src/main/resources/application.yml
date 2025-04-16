@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: demo101
+  ai:
+    chat:
+      client:
+        observations:
+          include-input: true
+          include-prompt: true
+          include-completion: true
+          include-error-logging: true
+    vectorstore:
+      observations:
+        include-query-response: true
+    model:
+      chat: ollama
+      embedding: ollama
+    ollama:
+      chat:
+        options:
+          model: llama3.2
+      embedding:
+        enabled: true
+        options:
+          model: llama3.2
+    mcp:
+      client:
+        toolcallback:
+          enabled: true
+        stdio:
+          servers-configuration: classpath:mcp-servers.json

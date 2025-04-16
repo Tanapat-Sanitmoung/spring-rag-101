@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "podman",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "--mount", "type=bind,src=/Users/lawansiri/Projects/demo101/mcp-servers,dst=/projects,rw",
+        "mcp/filesystem",
+        "/projects"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+LLM (Large Language Model) is a type of neural network designed to process and generate human-like language. It is trained on vast amounts of text data to learn patterns, relationships, and structures in language. LLMs are widely used in natural language processing tasks such as language translation, text summarization, sentiment analysis, and chatbots.
